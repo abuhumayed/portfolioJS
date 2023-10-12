@@ -243,6 +243,27 @@ section{
   
   .btn-color-1, .btn-color-2:hover {
     cursor: pointer;
-    
+    color: rgb(53,53,53);
   }
+   
+ .btn-color-2:hover{
+  background: white;
+  color: rgb(53,53,53);
+ }
+
+ .btn-color-1:hover{
+  color: white;
+  background: rgb(53,53,53);
+ }
+
+ .btn-color-2{
+  background-color: rgb(53,53,53);
+  color: white;
   
+ }
+
+
+ .btn-container{
+  gap:1rem;
+ }
+
