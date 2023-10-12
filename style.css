@@ -266,4 +266,53 @@ section{
  .btn-container{
   gap:1rem;
  }
+/* ABOUT SECTIONS */
 
+#about{
+  position: relative;
+  
+}
+
+.about-containers{
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem; 
+}
+
+.about-details-container{
+
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.about-containers, .about-details-container{
+  display: flex;
+}
+
+.about-pic{
+  width: 400px;
+  height: 400px;
+  border-radius: 2rem;
+  object-fit: contain;
+}
+
+.arrow{
+  position: absolute;
+  right: -5rem;
+  bottom: 2,5rem;
+}
+
+.section-container{
+  display: flex;
+}
+
+.details-container{
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border:rgb(53,53,53) 0.1rem solid;
+  border-color: rgb(163,163,163);
+  text-align: center;
+}
