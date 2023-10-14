@@ -324,4 +324,53 @@ section{
   height: 400px;
   width: 400px;
   margin: auto 0;
+ 
 }
+
+/* Experience */
+
+#experience{
+ position: relative;
+ 
+}
+
+.experience-sub-title{
+ color:rgb(85,85,85);
+ font-weight: 600;
+ font-size: 1.75rem;
+ margin-bottom: 2rem;
+ 
+}
+
+.experience-details-container{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.article-container{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: initial;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+  
+  
+
+}
+article{
+  display:flex;
+  width: 10rem;
+  justify-content:flex-start;
+  gap: 0.5rem;
+  
+}
+
+article .icon{
+  cursor: default;
+  
+}
+/* ?project section */
