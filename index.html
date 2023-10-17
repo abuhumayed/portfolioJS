@@ -52,7 +52,7 @@
         </button>
       </div>
       <div id="socials-container">
-        <img src="./assets/linkedin.png" alt="linkedIn profile" class='icon' onclick="window.open('https://www.linkedin.com/in/abu-j-17916017b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')">
+        <img src="./assets/linkedin.png" alt="linkedIn profile" class='icon icon3' onclick="window.open('https://www.linkedin.com/in/abu-j-17916017b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')">
         <img src="./assets/github.png" alt="Github profile" class='icon2' onclick="window.open('https://github.com/abuhumayed')">
       </div>
        </div>
@@ -168,14 +168,15 @@
     <img onclick="location.href='./#projects'" class="icon arrow" src="./assets/arrow.png" alt="arrow icon">
   </section>
   <section id="projects">
-    <p>Browse My Recent</p>
-    <h1>Projects</h1>
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
     <div class="experience-details-container">
+      <div class="about-containers">
       <div class ="details-container color-container">
         <div class="article-container">
           <img   class="project-img" src="assets/project1.png" alt="project1">
         </div>
-        <h2 class="experience-sub-titl project-title">Poject One</h2>
+        <h2 class="experience-sub-titl project-title">Nike Landing Page</h2>
         <div class="btn-container">
           <button class="btn btn-color-1 project-btn" onclick="window.open('https://github.com/abuhumayed/NikeLandingPage')">
             Github
@@ -189,7 +190,7 @@
         <div class="article-container">
           <img   class="project-img" src="assets/newsroom.png" alt="project2">
         </div>
-        <h2 class="experience-sub-titl project-title">Poject Two</h2>
+        <h2 class="experience-sub-titl project-title">Newsroom</h2>
         <div class="btn-container">
           <button class="btn btn-color-1 project-btn" onclick="window.open('https://github.com/abuhumayed/newsroom')">
             Github
@@ -203,7 +204,7 @@
         <div class="article-container">
           <img   class="project-img" src="assets/project3.png" alt="project3">
         </div>
-        <h2 class="experience-sub-titl project-title">Poject Three</h2>
+        <h2 class="experience-sub-titl project-title">Weather App</h2>
         <div class="btn-container">
           <button class="btn btn-color-1 project-btn" onclick="window.open('https:///github.com/abuhumayed/WeatherApp')">
             Github
@@ -213,10 +214,25 @@
           </button>
         </div>
       </div>
-
     </div>
-  </section>
+    </div>
 
+    <img onclick="location.href='./#contact'" class="icon arrow" src="./assets/arrow.png" alt="arrow icon">
+  </section>
+<section id="contact">
+  <p class="section__text__p1">Get in Touch </p>
+  <h1 class="title">Contact Me</h1> 
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon">
+      <p><a href="mailto:abuhumayedjunayed@gmail.com">abuhumayedjunayed@gmail.com</a></p>
+    </div>
+    <div class="contact-info-container">
+      <img src="./assets/linkedin.png" alt="LinkedIN icon" class="icon icon3 contact-icon"  onclick="window.open('https://www.linkedin.com/in/abu-j-17916017b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')">
+      <p><a  onclick="window.open('https://www.linkedin.com/in/abu-j-17916017b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')">LinkedIn</a></p>
+    </div>
+  </div>
+</section>
     <script src="./src/script.js"></script>
   </body>
 </html>
