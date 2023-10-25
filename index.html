@@ -3,263 +3,406 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="#">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
     <title>Abu Junayed</title>
   </head>
   <body>
     <nav id="desktop-nav">
-    <div class="logo" >Abu Junayed</div>
-    <div>
-      <ul class="nav-links" >
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  <nav id="hamburger-nav">
-    <div class="logo" >Abu Junayed</div>
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
+      <div class="logo">Abu Junayed</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
-      <div class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Abu Junayed</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
       </div>
-    </div>
-  </nav>
-  <section id="profile">
-    <div class="section__pic-container">
-      <img class = profile-pic src="./assets/profile-pic3.jpeg" alt="Abu Junayed profile picture">
-    </div>
-    <div class="section__text">
-      <p class="section__text__p1">Hello, I'm</p>
-      <h1 class="title">Abu Junayed</h1>
-      <p class="section__text_p2">Software Developer</p>
-      <div class="btn-container">
-        <button class="btn btn-color-1" onclick="window.open('./assets/resume-exampl')" >
-        Download CV
-        </button>
-        <button class="btn btn-color-2" onclick="location.href='./#contact'" >
-        Contact Info
-        </button>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          class="profile-pic"
+          src="./assets/profile-pic3.jpeg"
+          alt="Abu Junayed profile picture"
+        />
       </div>
-      <div id="socials-container">
-        <img src="./assets/linkedin.png" alt="linkedIn profile" class='icon icon3' onclick="window.open('https://www.linkedin.com/in/abu-j-17916017b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')">
-        <img src="./assets/github.png" alt="Github profile" class='icon2' onclick="window.open('https://github.com/abuhumayed')">
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Abu Junayed</h1>
+        <p class="section__text_p2">Software Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-1"
+            onclick="window.open('./assets/ajunayedCV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="linkedIn profile"
+            class="icon icon3"
+            onclick="window.open('https://www.linkedin.com/in/abu-j-17916017b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')"
+          />
+          <img
+            src="./assets/github.png"
+            alt="Github profile"
+            class="icon2"
+            onclick="window.open('https://github.com/abuhumayed')"
+          />
+        </div>
       </div>
-       </div>
-       
-  </section>
-  <section id="about">
+    </section>
+    <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container">
-          <img class="about-pic" src="assets/about-pic.jpg" alt="Desktop Setup">
+          <img
+            class="about-pic"
+            src="assets/about-pic.jpg"
+            alt="Desktop Setup"
+          />
         </div>
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
-              <img  class="icon" src="./assets/experience.png" alt="experience icon">
+              <img
+                class="icon"
+                src="./assets/experience.png"
+                alt="experience icon"
+              />
               <h3>Experience</h3>
-              <p>-Front End Development <br>-UI/UX Designs </p>
+              <p>-Front End Development <br />-UI/UX Designs</p>
             </div>
             <div class="details-container">
-              <img  class="icon" src="./assets/eduction.png" alt="experience icon">
+              <img
+                class="icon"
+                src="./assets/eduction.png"
+                alt="experience icon"
+              />
               <h3>Education</h3>
-              <p>-B.Sc Computer Science <br>-Software Development Bootcamp </p>
+              <p>-B.Sc Computer Science <br />-Software Development Bootcamp</p>
             </div>
           </div>
-          <div class="text-container"><p>
-            Your friendly neighborhood frontend developer. By day and often night, I'm an artist on the Internet canvas, transforming zeroes and ones into captivating, interactive experiences through projects and code.
+          <div class="text-container">
+            <p>
+              Your friendly neighborhood frontend developer. By day and often
+              night, I'm an artist on the Internet canvas, transforming zeroes
+              and ones into captivating, interactive experiences through
+              projects and code. My journey embraces minimalism, seeking beauty
+              in simplicity and order. Beyond the screen, catch me exploring the
+              open roads on my motorcycle, embracing the thrill of adventure or
+              lost hiking on a mountain. Anyway, don't hesitate to get in touch
+              – I'm just a click away!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        onclick="location.href='./#experience'"
+        class="icon arrow"
+        src="./assets/arrow.png"
+        alt="arrow icon"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Technology</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="checkmarkicon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="checkmarkicon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="checkmarkicon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Javascript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="checkmarkicon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="checkmarkicon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tailwind</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="checkmarkicon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Figma/AdobeXD</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Other/Backend Software</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="checkmarkicon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="checkmarkicon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node.js</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="checkmarkicon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="checkmarkicon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Google Firebase</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        onclick="location.href='./#projects'"
+        class="icon arrow"
+        src="./assets/arrow.png"
+        alt="arrow icon"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="assets/project1.png"
+                alt="project1"
+              />
+            </div>
+            <h2 class="experience-sub-titl project-title">Nike Landing Page</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-1 project-btn"
+                onclick="window.open('https://github.com/abuhumayed/NikeLandingPage')"
+              >
+                Source Code
+              </button>
+              <button
+                class="btn btn-color-1 project-btn"
+                onclick="window.open('https://nike-landing-page-bjke.vercel.app/')"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="assets/newsroom.png"
+                alt="project2"
+              />
+            </div>
+            <h2 class="experience-sub-titl project-title">Newsroom</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-1 project-btn"
+                onclick="window.open('https://github.com/abuhumayed/newsroom')"
+              >
+                Source Code
+              </button>
+              <button
+                class="btn btn-color-1 project-btn"
+                onclick="window.open('https://newsroomv-2kjao9a44-abuhumayed.vercel.app')"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img class="project-img" src="assets/imagee.png" alt="project3" />
+            </div>
+            <h2 class="experience-sub-titl project-title">Imagee</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-1 project-btn"
+                onclick="window.open('https://github.com/abuhumayed/ImageFinder')"
+              >
+                Source Code
+              </button>
+              <button
+                class="btn btn-color-1 project-btn"
+                onclick="window.open('https://imagee-neon.vercel.app/')"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="assets/project3.png"
+                alt="project3"
+              />
+            </div>
+            <h2 class="experience-sub-titl project-title">Weather App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-1 project-btn"
+                onclick="window.open('https:///github.com/abuhumayed/WeatherApp')"
+              >
+                Source Code
+              </button>
+              <button
+                class="btn btn-color-1 project-btn"
+                onclick="window.open('https://weather-6g2m400nv-abuhumayed.vercel.app')"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-            My journey embraces minimalism, seeking beauty in simplicity and order. Beyond the screen, catch me exploring the open roads on my motorcycle, embracing the thrill of adventure or lost hiking on a mountain. Anyway, don't hesitate to get in touch – I'm just a click away!
+      <img
+        onclick="location.href='./#contact'"
+        class="icon arrow"
+        src="./assets/arrow.png"
+        alt="arrow icon"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:abuhumayedjunayed@gmail.com"
+              >abuhumayedjunayed@gmail.com</a
+            >
           </p>
-          </div>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIN icon"
+            class="icon icon3 contact-icon"
+            onclick="window.open('https://www.linkedin.com/in/abu-j-17916017b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')"
+          />
+          <p>
+            <a
+              onclick="window.open('https://www.linkedin.com/in/abu-j-17916017b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')"
+              >LinkedIn</a
+            >
+          </p>
         </div>
       </div>
-      <img onclick="location.href='./#experience'" class="icon arrow" src="./assets/arrow.png" alt="arrow icon">
-  </section>
-  <section id="experience">
-    <p class="section__text__p1">Technology</p>
-    <h1 class="title">Experience</h1>
-    <div  class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container" >
-          <h2 class="experience-sub-title">Frontend Development</h2>
-          <div class="article-container">
-            <article>
-              <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
-              <div>
-                <h3>HTML</h3>
-              </div>            
-            </article>
-            <article>
-              <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
-              <div>
-                <h3>CSS</h3>
-              </div>            
-            </article>
-            <article>
-              <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
-              <div>
-                <h3>Javascript</h3>
-              </div>            
-            </article>
-            <article>
-              <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
-              <div>
-                <h3>React</h3>
-              </div>            
-            </article>
-            <article>
-              <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
-              <div>
-                <h3>Tailwind</h3>
-              </div>            
-            </article>
-            <article>
-              <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
-              <div>
-                <h3>Figma/AdobeXD</h3>
-              </div>            
-            </article>
-          </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
         </div>
-        <div class="details-container" >
-          <h2 class="experience-sub-title">Other/Backend Software</h2>
-          <div class="article-container">
-            <article>
-              <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
-              <div>
-                <h3>SQL</h3>
-              </div>            
-            </article>
-            <article>
-              <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
-              <div>
-                <h3>Node.js</h3>
-              </div>            
-            </article>
-            <article>
-              <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
-              <div>
-                <h3>Git</h3>
-              </div>            
-            </article>
-            <article>
-              <img src="assets/checkmark.png" alt="checkmarkicon" class="icon">
-              <div>
-                <h3>Google Firebase</h3>
-              </div>            
-            </article>
-          </div>
-        </div>
-      </div>
-    </div>
-    <img onclick="location.href='./#projects'" class="icon arrow" src="./assets/arrow.png" alt="arrow icon">
-  </section>
-  <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-      <div class ="details-container color-container">
-        <div class="article-container">
-          <img   class="project-img" src="assets/project1.png" alt="project1">
-        </div>
-        <h2 class="experience-sub-titl project-title">Nike Landing Page</h2>
-        <div class="btn-container">
-          <button class="btn btn-color-1 project-btn" onclick="window.open('https://github.com/abuhumayed/NikeLandingPage')">
-            Source Code
-          </button>
-          <button class="btn btn-color-1 project-btn" onclick="window.open('https://nike-landing-page-bjke.vercel.app/')">
-            Live Demo
-          </button>
-        </div>
-      </div>
-      <div class ="details-container color-container">
-        <div class="article-container">
-          <img   class="project-img" src="assets/newsroom.png" alt="project2">
-        </div>
-        <h2 class="experience-sub-titl project-title">Newsroom</h2>
-        <div class="btn-container">
-          <button class="btn btn-color-1 project-btn" onclick="window.open('https://github.com/abuhumayed/newsroom')">
-            Source Code
-          </button>
-          <button class="btn btn-color-1 project-btn" onclick="window.open('https://newsroomv-2kjao9a44-abuhumayed.vercel.app')">
-            Live Demo
-          </button>
-        </div>
-      </div>
-      <div class ="details-container color-container">
-        <div class="article-container">
-          <img   class="project-img" src="assets/imagee.png" alt="project3">
-        </div>
-        <h2 class="experience-sub-titl project-title">Imagee</h2>
-        <div class="btn-container">
-          <button class="btn btn-color-1 project-btn" onclick="window.open('https://github.com/abuhumayed/ImageFinder')">
-            Source Code
-          </button>
-          <button class="btn btn-color-1 project-btn" onclick="window.open('https://imagee-neon.vercel.app/')">
-            Live Demo
-          </button>
-        </div>
-      </div>
-      <div class ="details-container color-container">
-        <div class="article-container">
-          <img   class="project-img" src="assets/project3.png" alt="project3">
-        </div>
-        <h2 class="experience-sub-titl project-title">Weather App</h2>
-        <div class="btn-container">
-          <button class="btn btn-color-1 project-btn" onclick="window.open('https:///github.com/abuhumayed/WeatherApp')">
-            Source Code
-          </button>
-          <button class="btn btn-color-1 project-btn" onclick="window.open('https://weather-6g2m400nv-abuhumayed.vercel.app')">
-            Live Demo
-          </button>
-        </div>
-      </div>
-    </div>
-    </div>
-
-    <img onclick="location.href='./#contact'" class="icon arrow" src="./assets/arrow.png" alt="arrow icon">
-  </section>
-<section id="contact">
-  <p class="section__text__p1">Get in Touch </p>
-  <h1 class="title">Contact Me</h1> 
-  <div class="contact-info-upper-container">
-    <div class="contact-info-container">
-      <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon">
-      <p><a href="mailto:abuhumayedjunayed@gmail.com">abuhumayedjunayed@gmail.com</a></p>
-    </div>
-    <div class="contact-info-container">
-      <img src="./assets/linkedin.png" alt="LinkedIN icon" class="icon icon3 contact-icon"  onclick="window.open('https://www.linkedin.com/in/abu-j-17916017b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')">
-      <p><a  onclick="window.open('https://www.linkedin.com/in/abu-j-17916017b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')">LinkedIn</a></p>
-    </div>
-  </div>
-</section>
-<footer>
-  <nav>
-    <div class="nav-links-container">
-      <ul class="nav-links" >
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-      </ul>
-    </div>
-  </nav>
-  <p >Copyright © 2023 Abu Junayed All rights reserved.</p>
-</footer>
+      </nav>
+      <p>Copyright © 2023 Abu Junayed All rights reserved.</p>
+    </footer>
 
     <script src="./script.js" type="module"></script>
   </body>
